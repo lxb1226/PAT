@@ -35,6 +35,4 @@ int main(){
 	}
 	printf("%d %d %d\n", dp[k], nums[s[k]], nums[k]);
 	return 0;	
-	
-	
 } 

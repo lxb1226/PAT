@@ -4,7 +4,6 @@ const int maxn = 1010;
 char S[maxn];
 int dp[maxn][maxn];
 int main(){
-
 	fgets(S, maxn,stdin);
 	int len = strlen(S), ans = 1;
 	memset(dp, 0, sizeof(dp));
